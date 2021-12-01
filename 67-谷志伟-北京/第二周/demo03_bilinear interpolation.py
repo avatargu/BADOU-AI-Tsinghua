@@ -58,7 +58,7 @@ def bilinear_interpolation(src_img, dst_dim):
                     (y - y0) / (y1 - y0) = (x - x0) / (x1 - x0) 
                     => 
                     y = (x1 - x) / (x1 - x0) * y0 + (x - x0) / (x1 - x0) * y1
-                    ="相邻像素宽度坐标差值为1，即x1 -x0"> 
+                    ="相邻像素宽度坐标差值为1，即x1-x0=1"> 
                     y = (x1 - x) * y0 + (x - x0) * y1
                 """
                 # 第一次单线性插值
